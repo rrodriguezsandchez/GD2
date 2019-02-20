@@ -1,5 +1,5 @@
 body {
-    background-color: #9cbabc;
+    background-color: #d2d3d3;
 
 }
 
@@ -22,8 +22,23 @@ h3 {
 }
 
 p {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     font-family: 'Libre Franklin', sans-serif;
     font-size: 25px;
     text-align: right;
     line-height: 1;
+
+
+}
+
+figcaption {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 10px;
+    color: #8b8895
+}
+
+    {
+    height: auto;
+    width: auto;
 }
