@@ -1,13 +1,29 @@
 body {
     background-color: #9cbabc;
+
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    color: #b5afc3
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #b5afc3
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-align: right;
 }
 
 p {
-    color: #000000;
+    font-family: 'Libre Franklin', sans-serif;
     font-size: 25px;
-
-    letter-spacing: 2px;
+    text-align: right;
     line-height: 1;
-    text-align: center;
-
 }
