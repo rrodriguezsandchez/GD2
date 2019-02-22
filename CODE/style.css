@@ -9,6 +9,18 @@ body {
 
 }
 
+blockquote {
+    text-align: left;
+    margin: 0;
+}
+
+
+header {
+    background-image: url(images/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 60px;
@@ -100,9 +112,7 @@ figcaption {
     margin: -50px 20px -10px 20px;
 }
 
-blockquote {
-    text-align: left;
-}
+
 
 .pquote {
     font-family: 'Oswald', sans-serif;
@@ -113,14 +123,4 @@ blockquote {
     font-size: 31px;
     line-height: 1.25;
     padding: 10px;
-}
-
-blockquote {
-    margin: 0;
-}
-
-header {
-    background-image: url(images/maxresdefault.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
