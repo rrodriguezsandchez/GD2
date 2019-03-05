@@ -9,3 +9,20 @@
     padding: 0;
     text-align: inherit;
 }
+
+.background {
+    width: 640px;
+    color: #151515;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif
+}
+
+.price {
+    font-family: 'Montserrat', sans-serif
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif
+}
