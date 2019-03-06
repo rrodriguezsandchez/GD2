@@ -10,32 +10,65 @@
     text-align: inherit;
 }
 
+.title,
+.price,
+.description,
+.rating,
+button {
+    font-family: 'Montserrat', sans-serif
+}
+
 img {
     position: relative;
     left: 40px;
-    top: 150px;
+    top: 220px;
     min-width: 100px;
     max-width: 100%;
 }
 
 .title {
+    font-size: 50px;
     position: relative;
-    left: 400px;
+    left: 230px;
     top: 200px;
-    font-family: 'Montserrat', sans-serif
 }
 
 .price {
-    font-family: 'Montserrat', sans-serif
+    font-size: 40px;
+    position: relative;
+    left: 500px;
+    top: 280px;
 }
 
 .description {
+    width: 550px;
+    height: 220px;
+    position: relative;
+    bottom: 750px;
     font-size: 40px;
-    font-family: 'Montserrat', sans-serif
+
+}
+
+.rating {
+    font-size: 20px;
+    position: relative;
+    left: 600px;
+    bottom: 120px;
+}
+
+
+button {
+    position: relative;
+    left: 250px;
+    bottom: 50px;
+
+    font-size: 15px;
+    background-color: #cccc00;
+
 }
 
 .background {
     width: 640px;
-    height: 1000px;
+    height: 1100px;
     background-color: #696969;
 }
