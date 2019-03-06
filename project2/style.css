@@ -15,7 +15,7 @@
 .description,
 .rating,
 button {
-    font-family: 'Montserrat', sans-serif
+    font-family: 'Montserrat', sans-serif, bold
 }
 
 img {
@@ -61,10 +61,8 @@ button {
     position: relative;
     left: 250px;
     bottom: 50px;
-
     font-size: 15px;
     background-color: #bb8c4e;
-
 }
 
 .background {
