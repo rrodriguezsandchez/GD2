@@ -10,12 +10,18 @@
     text-align: inherit;
 }
 
-.background {
-    width: 640px;
-    color: #151515;
+img {
+    position: relative;
+    left: 40px;
+    top: 150px;
+    min-width: 100px;
+    max-width: 100%;
 }
 
 .title {
+    position: relative;
+    left: 400px;
+    top: 200px;
     font-family: 'Montserrat', sans-serif
 }
 
@@ -24,5 +30,12 @@
 }
 
 .description {
+    font-size: 40px;
     font-family: 'Montserrat', sans-serif
+}
+
+.background {
+    width: 640px;
+    height: 1000px;
+    background-color: #696969;
 }
