@@ -1,21 +1,25 @@
-/*  Removes default styles from a button element */
-.u-button-reset {
-    background: transparent;
-    border: 0;
-    cursor: pointer;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    padding: 0;
-    text-align: inherit;
+.background {
+    width: 640px;
+    height: 1100px;
+    background-color: #979797;
+
 }
 
-.title,
-.price,
-.description,
-.rating,
 button {
-    font-family: 'Montserrat', sans-serif, bold
+    position: relative;
+    left: 250px;
+    bottom: 20px;
+    font-size: 15px;
+    background-color: #bb8c4e;
+}
+
+.description {
+    width: 550px;
+    height: 220px;
+    position: relative;
+    bottom: 790px;
+    font-size: 40px;
+
 }
 
 img {
@@ -26,28 +30,11 @@ img {
     max-width: 100%;
 }
 
-.title {
-    font-size: 50px;
-    position: relative;
-    left: 190px;
-    top: 200px;
-
-}
-
 .price {
     font-size: 40px;
     position: relative;
     left: 480px;
     top: 250px;
-}
-
-.description {
-    width: 550px;
-    height: 220px;
-    position: relative;
-    bottom: 790px;
-    font-size: 40px;
-
 }
 
 .rating {
@@ -62,17 +49,31 @@ svg {
     width: 20px;
 }
 
-button {
+.title {
+    font-size: 50px;
     position: relative;
-    left: 250px;
-    bottom: 20px;
-    font-size: 15px;
-    background-color: #bb8c4e;
+    left: 190px;
+    top: 200px;
+
 }
 
-.background {
-    width: 640px;
-    height: 1100px;
-    background-color: #979797;
+/*  Removes default styles from a button element */
+.u-button-reset {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+    text-align: inherit;
+}
 
+
+.title,
+.price,
+.description,
+.rating,
+button {
+    font-family: 'Montserrat', sans-serif, bold
 }
