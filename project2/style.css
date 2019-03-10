@@ -69,7 +69,8 @@ button {
     background-color: #bb8c4e;
 }
 
-.background-image {
-    background-size: 100% 50%;
-
+.background {
+    background-color: #979797;
+    background-width: 640px;
+    background-height: 1100px;
 }
