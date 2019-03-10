@@ -29,22 +29,23 @@ img {
 .title {
     font-size: 50px;
     position: relative;
-    left: 230px;
+    left: 190px;
     top: 200px;
+
 }
 
 .price {
     font-size: 40px;
     position: relative;
-    left: 500px;
-    top: 280px;
+    left: 480px;
+    top: 250px;
 }
 
 .description {
     width: 550px;
     height: 220px;
     position: relative;
-    bottom: 750px;
+    bottom: 790px;
     font-size: 40px;
 
 }
@@ -52,7 +53,7 @@ img {
 .rating {
     font-size: 20px;
     position: relative;
-    left: 600px;
+    left: 500px;
     bottom: 120px;
 }
 
@@ -64,13 +65,14 @@ svg {
 button {
     position: relative;
     left: 250px;
-    bottom: 50px;
+    bottom: 20px;
     font-size: 15px;
     background-color: #bb8c4e;
 }
 
 .background {
+    width: 640px;
+    height: 1100px;
     background-color: #979797;
-    background-width: 640px;
-    background-height: 1100px;
+
 }
