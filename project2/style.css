@@ -56,6 +56,10 @@ img {
     bottom: 120px;
 }
 
+svg {
+    height: auto;
+    width: 20px;
+}
 
 button {
     position: relative;
@@ -65,8 +69,7 @@ button {
     background-color: #bb8c4e;
 }
 
-.background {
-    width: 640px;
-    height: 1100px;
-    background-color: #979797;
+.background-image {
+    background-size: 100% 50%;
+
 }
