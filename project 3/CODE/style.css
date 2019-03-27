@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(to bottom, hsla(281, 100%, 25%, 1) 0%, hsla(22, 100%, 63%, 1) 51%, hsla(21, 97%, 63%, 1) 52%, hsla(281, 100%, 25%, 0.97) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#570080', endColorstr='#570080', GradientType=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+
+
+.button-close,
+div h2,
+div p {
+    display: none;
+}
+
+#hour6am:target h2,
+#hour6am:target p,
+#hour6am:target .button-close {
+    display: block;
+}
+
+img {
+    border: 3px solid black;
+}
