@@ -20,6 +20,96 @@ div p {
     display: block;
 }
 
+#hour7am:target h2,
+#hour7am:target p,
+#hour7am:target .button-close {
+    display: block;
+}
+
+#hour8am:target h2,
+#hour8am:target p,
+#hour8am:target .button-close {
+    display: block;
+}
+
+#hour9am:target h2,
+#hour9am:target p,
+#hour9am:target .button-close {
+    display: block;
+}
+
+#hour10am:target h2,
+#hour10am:target p,
+#hour10am:target .button-close {
+    display: block;
+}
+
+#hour11am:target h2,
+#hour11am:target p,
+#hour11am:target .button-close {
+    display: block;
+}
+
+#hour12pm:target h2,
+#hour12pm:target p,
+#hour12pm:target .button-close {
+    display: block;
+}
+
+#hour1pm:target h2,
+#hour1pm:target p,
+#hour1pm:target .button-close {
+    display: block;
+}
+
+#hour2pm:target h2,
+#hour2pm:target p,
+#hour2pm:target .button-close {
+    display: block;
+}
+
+#hour2pm:target h2,
+#hour2pm:target p,
+#hour2pm:target .button-close {
+    display: block;
+}
+
+#hour3pm:target h2,
+#hour3pm:target p,
+#hour3pm:target .button-close {
+    display: block;
+}
+
+#hour4pm:target h2,
+#hour4pm:target p,
+#hour4pm:target .button-close {
+    display: block;
+}
+
+#hour5pm:target h2,
+#hour5pm:target p,
+#hour5pm:target .button-close {
+    display: block;
+}
+
+#hour6pm:target h2,
+#hour6pm:target p,
+#hour6pm:target .button-close {
+    display: block;
+}
+
+#hour7pm:target h2,
+#hour7pm:target p,
+#hour7pm:target .button-close {
+    display: block;
+}
+
+#hour8pm:target h2,
+#hour8pm:target p,
+#hour8pm:target .button-close {
+    display: block;
+}
+
 img {
     border: 3px solid black;
 }
