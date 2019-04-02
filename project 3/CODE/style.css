@@ -6,7 +6,13 @@ body {
     margin: 0;
 }
 
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
 
+p {
+    font-family: 'Quicksand', sans-serif;
+}
 
 .button-close,
 div h2,
