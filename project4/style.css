@@ -8,6 +8,16 @@ body {
     margin: 0;
 }
 
+.hashtag img {
+    height: auto;
+    width: 46px;
+}
+
+.hashtag.twitter img {
+    width: 80px;
+
+}
+
 /* == Nav bar == */
 .nav-bar {
     background-color: #444;
