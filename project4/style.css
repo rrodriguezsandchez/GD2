@@ -42,7 +42,7 @@ body {
 }
 
 .nav-item {
-    background: white;
+    background: #eab5c2;
     margin: 0;
     padding: 0;
 }
@@ -50,7 +50,7 @@ body {
 .nav-item a {
     display: block;
     border-bottom: 1px solid white;
-    color: white;
+    color: #eab5c2;
     background: #444;
     font-size: 1.2rem;
     margin: 0;
@@ -93,15 +93,15 @@ body {
 /* == Hamburger icon == */
 .nav-icon {
     border: none;
-    color: transparent;
+    color: #eab5c2;
     cursor: pointer;
     display: block;
     height: 27px;
     position: absolute;
-    right: 13px;
+    left: 13px;
     text-align: center;
     text-indent: -9999px;
-    text-shadow: 0 0 0 gray;
+    text-shadow: #eab5c2;
     top: 20px;
     transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
     width: 27px;
@@ -163,4 +163,9 @@ body {
     top: 14px;
     transform: translateX(-5px) rotate(45deg) translateY(-8px);
     width: 27px;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
 }
