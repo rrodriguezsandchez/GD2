@@ -22,7 +22,7 @@ body {
 
 /* == Nav bar == */
 .nav-bar {
-    background-color: #444;
+    background-color: #eab5c2;
     padding-top: 60px;
     position: relative;
 }
@@ -170,12 +170,16 @@ body {
 
 .logo {
     width: 300px;
-    height: 300px;
+    height: auto;
 }
 
-@media (min-width: 900px) {
-    logo {
-        width: 300px;
+@media (min-width: 800px) {
+    .logo {
+        width: 1000px;
         height: auto;
+    }
+
+    .hero {
+        font-size: 200;
     }
 }
